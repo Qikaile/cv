@@ -162,7 +162,7 @@
 
 					$.ajax({   	
 				      type: "POST",
-				      url: "php/sendEmail.php",
+				      url: "sendEmail.php",
 				      data: $(form).serialize(),
 
 				      beforeSend: function() { 
